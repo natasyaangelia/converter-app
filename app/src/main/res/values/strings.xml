@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Application name-->
+    <string name="app_name">Converter App</string>
+      <string name="title_converter">Module Title</string>
+</resources>
