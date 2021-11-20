@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-allopen:1.4.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-allopen/1.4.10/c0d7433c36f4dad569f750b7fd9cca68499bdf09/kotlin-allopen-1.4.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-allopen/1.4.10/6756a3f5386fc278b526b2adb514b2daf7a16ccc/kotlin-allopen-1.4.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

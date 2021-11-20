@@ -1,10 +1,23 @@
 package com.converter.dynamicfeatures.characterslist.ui.detail.di
 
+import androidx.lifecycle.ViewModel
+import com.converter.commons.ui.extensions.viewModel
 import com.converter.core.network.repositiories.ConverterRepository
 import com.converter.dynamicfeatures.characterslist.ui.detail.*
-import io.mockk.MockKAnnotations
+import io.mockk.*
 import io.mockk.impl.annotations.*
 import org.junit.*
+import io.mockk.MockKAnnotations
+import io.mockk.every
+import io.mockk.impl.annotations.MockK
+import io.mockk.mockk
+import io.mockk.mockkStatic
+import io.mockk.slot
+import io.mockk.verify
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
+import org.junit.Before
+import org.junit.Test
 
 class ConverterDetailModuleTest {
 
@@ -35,8 +48,8 @@ class ConverterDetailModuleTest {
         val factoryCaptor = slot<() -> ConverterDetailViewModel>()
         val converterRepository = mockk<ConverterRepository>(relaxed = true)
         module = ConverterDetailModule(fragment)
-        module.providesConverterDetailViewModel(
-            converterRepository = converterRepository
+        module.providesCharacterDetailViewModel(
+            converterRepo = converterRepository
         )
 
         verify {
@@ -44,7 +57,7 @@ class ConverterDetailModuleTest {
         }
 
         factoryCaptor.captured().run {
-            assertEquals(converterRepository, this.converterRepository)
+            assertEquals(converterRepository, this.converterRepo)
         }
     }
 }

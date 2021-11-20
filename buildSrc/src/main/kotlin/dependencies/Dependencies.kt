@@ -27,6 +27,9 @@ object Dependencies {
     const val LOGGING = "com.squareup.okhttp3:logging-interceptor:${BuildDependenciesVersions.LOGGING}"
     const val MOSHI = "com.squareup.moshi:moshi:${BuildDependenciesVersions.MOSHI}"
     const val MOSHI_KTX = "com.squareup.moshi:moshi-kotlin:${BuildDependenciesVersions.MOSHI}"
+    const val RETROFIT_MOSHI = "com.squareup.retrofit2:converter-moshi:${BuildDependenciesVersions.RETROFIT}"
+    const val COROUTINES_ADAPTER = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${BuildDependenciesVersions.COROUTINES_ADAPTER}"
+
     const val COIL = "io.coil-kt:coil:${BuildDependenciesVersions.COIL}"
     const val PLAY_CORE = "com.google.android.play:core:${BuildDependenciesVersions.PLAY_CORE}"
     const val MATERIAL_SPINNER = "com.jaredrummler:material-spinner:${BuildDependenciesVersions.SPINNER}"

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vanniktech:gradle-dependency-graph-generator-plugin:0.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/gradle-dependency-graph-generator-plugin/0.6.0/25b38e3a06e2f27ed25debd78cb045a909d0b798/gradle-dependency-graph-generator-plugin-0.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/gradle-dependency-graph-generator-plugin/0.6.0/be31639eb06f23eb6ffb6c74796028963e6a6b61/gradle-dependency-graph-generator-plugin-0.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

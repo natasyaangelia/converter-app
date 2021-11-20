@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.diffplug.spotless:spotless-plugin-gradle:5.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.diffplug.spotless/spotless-plugin-gradle/5.6.1/e78a40864c31723660077c8dbcc6ab11820464e3/spotless-plugin-gradle-5.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.diffplug.spotless/spotless-plugin-gradle/5.6.1/67a0eb4f064aef0b28383298f2421ed66bb5eb60/spotless-plugin-gradle-5.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

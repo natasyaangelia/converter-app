@@ -10,7 +10,10 @@ import javax.inject.Singleton
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
+import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
+import com.squareup.moshi.Moshi
+import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
+import retrofit2.converter.moshi.MoshiConverterFactory
 
 /**
  * Class that contributes to the object graph [CoreComponent].
@@ -50,6 +53,12 @@ class NetworkModule {
         return clientBuilder.build()
     }
 
+    private fun provideMoshiConverter(): Moshi = run {
+        Moshi.Builder()
+            .add(KotlinJsonAdapterFactory())
+            .build()
+    }
+
     /**
      * Create a provider method binding for [Retrofit].
      *
@@ -61,7 +70,8 @@ class NetworkModule {
     fun provideRetrofitBuilder() =
         Retrofit.Builder()
             .baseUrl(BuildConfig.BASE_URL)
-            .addConverterFactory(GsonConverterFactory.create())
+            .addConverterFactory(MoshiConverterFactory.create(provideMoshiConverter()))
+            .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .build()
 
     @Singleton

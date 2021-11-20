@@ -27,6 +27,7 @@ object BuildDependenciesVersions {
     const val RXJAVA = "2.2.10"
     const val RXANDROID = "2.1.1"
     const val MULTIDEX = "2.0.1"
+    const val COROUTINES_ADAPTER = "0.9.2"
 
     // Tests
     const val TEST = "1.3.0"

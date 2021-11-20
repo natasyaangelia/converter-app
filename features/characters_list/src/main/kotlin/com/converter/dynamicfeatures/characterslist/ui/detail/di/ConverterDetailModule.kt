@@ -3,7 +3,6 @@ package com.converter.dynamicfeatures.characterslist.ui.detail.di
 import androidx.annotation.VisibleForTesting
 import androidx.annotation.VisibleForTesting.PRIVATE
 import com.converter.commons.ui.extensions.viewModel
-import com.converter.commons.views.ProgressBarDialog
 import com.converter.core.di.scopes.FeatureScope
 import com.converter.core.network.repositiories.ConverterRepository
 import com.converter.dynamicfeatures.characterslist.ui.detail.ConverterDetailFragment
@@ -26,8 +25,4 @@ class ConverterDetailModule(
             converterRepo = converterRepo
         )
     }
-
-    @FeatureScope
-    @Provides
-    fun providesProgressBarDialog() = ProgressBarDialog(fragment.requireContext())
 }

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ben-manes:gradle-versions-plugin:0.33.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes/gradle-versions-plugin/0.33.0/c32aef64b4a27f73694899fe0414cb50e5ddb787/gradle-versions-plugin-0.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ben-manes/gradle-versions-plugin/0.33.0/3e28cd2f35e4d69c60d572c4bc25ca47d98fe64e/gradle-versions-plugin-0.33.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

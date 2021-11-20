@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pinterest.ktlint:ktlint-reporter-json:0.39.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-reporter-json/0.39.0/a70a0e6eecea83405a4ac5aa03ae0a04ccab97a1/ktlint-reporter-json-0.39.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-reporter-json/0.39.0/d7515f921958ec3159ce8f69d3bfca6686de3cf/ktlint-reporter-json-0.39.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

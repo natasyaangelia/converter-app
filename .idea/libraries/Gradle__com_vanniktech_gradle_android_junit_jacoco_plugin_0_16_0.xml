@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vanniktech:gradle-android-junit-jacoco-plugin:0.16.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/gradle-android-junit-jacoco-plugin/0.16.0/2382394a0df573073de1b551dc0cc8174e94ff1d/gradle-android-junit-jacoco-plugin-0.16.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vanniktech/gradle-android-junit-jacoco-plugin/0.16.0/bc533140c5dcf80b046c8e6150f0eadffc47e9aa/gradle-android-junit-jacoco-plugin-0.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.ec4j.core:ec4j-core:0.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ec4j.core/ec4j-core/0.2.2/b8427c972f95e9b7085f649ac7547d540f451e2b/ec4j-core-0.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ec4j.core/ec4j-core/0.2.2/2d98737477058ac5abfcdeac4299cd5ec66a3380/ec4j-core-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

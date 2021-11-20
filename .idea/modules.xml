@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/converter-app.iml" filepath="$PROJECT_DIR$/.idea/modules/converter-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/converter-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/converter-app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/converter-app.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/converter-app.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/converter-app.commons.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/converter-app.commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/ui/converter-app.commons.ui.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/ui/converter-app.commons.ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/commons/views/converter-app.commons.views.iml" filepath="$PROJECT_DIR$/.idea/modules/commons/views/converter-app.commons.views.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/converter-app.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/converter-app.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/converter-app.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/converter-app.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/characters_list/converter-app.features.characters_list.iml" filepath="$PROJECT_DIR$/.idea/modules/features/characters_list/converter-app.features.characters_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/converter-app.libraries.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/converter-app.libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/libraries/test_utils/converter-app.libraries.test_utils.iml" filepath="$PROJECT_DIR$/.idea/modules/libraries/test_utils/converter-app.libraries.test_utils.iml" />
+    </modules>
+  </component>
+</project>

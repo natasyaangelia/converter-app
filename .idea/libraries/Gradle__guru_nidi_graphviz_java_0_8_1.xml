@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: guru.nidi:graphviz-java:0.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/guru.nidi/graphviz-java/0.8.1/b79d80ea794fbbdd9848356a4d8eca1794e81dd6/graphviz-java-0.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/guru.nidi/graphviz-java/0.8.1/f700a01c613b1bd254e91146f7943c1306d49e7a/graphviz-java-0.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -87,8 +87,6 @@ class SampleApp : SplitCompatApplication() {
      * Initialize random nightMode to make developer aware of day/night themes.
      */
     private fun initRandomNightMode() {
-        if (BuildConfig.DEBUG) {
-            themeUtils.setNightMode(Random.nextBoolean())
-        }
+        themeUtils.setNightMode(false)
     }
 }

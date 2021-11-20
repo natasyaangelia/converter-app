@@ -37,6 +37,8 @@ dependencies {
     implementation(Dependencies.LOGGING)
     implementation(Dependencies.MOSHI)
     implementation(Dependencies.MOSHI_KTX)
+    implementation(Dependencies.COROUTINES_ADAPTER)
+    implementation(Dependencies.RETROFIT_MOSHI)
 
     kapt(AnnotationProcessorsDependencies.DATABINDING)
 }

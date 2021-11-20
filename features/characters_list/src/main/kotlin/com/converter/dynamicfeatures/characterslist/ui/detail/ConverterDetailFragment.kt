@@ -6,7 +6,6 @@ import com.google.android.material.snackbar.Snackbar
 import com.converter.android.SampleApp.Companion.coreComponent
 import com.converter.commons.ui.base.BaseFragment
 import com.converter.commons.ui.extensions.observe
-import com.converter.commons.views.ProgressBarDialog
 import com.converter.core.model.Latest
 import com.converter.core.network.responses.Resource.*
 import com.converter.core.utils.Utility
@@ -23,8 +22,6 @@ class ConverterDetailFragment :
         layoutId = R.layout.fragment_character_detail
     ) {
 
-    @Inject
-    lateinit var progressDialog: ProgressBarDialog
     private lateinit var binding: FragmentCharacterDetailBinding
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -37,7 +34,7 @@ class ConverterDetailFragment :
         DaggerConverterDetailComponent
             .builder()
             .coreComponent(coreComponent(requireContext()))
-            .characterDetailModule(ConverterDetailModule(this))
+            .converterDetailModule(ConverterDetailModule(this))
             .build()
             .inject(this)
     }

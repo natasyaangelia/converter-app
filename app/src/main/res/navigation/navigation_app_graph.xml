@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/characterDetailFragment">
+    app:startDestination="@id/converterDetailFragment">
     <fragment
-        android:id="@+id/characterDetailFragment"
-        android:name="com.converter.dynamicfeatures.characterslist.ui.detail.CharacterDetailFragment"
-        app:moduleName="android-modular-architecture-master_3.features.characters_list"
-        android:label="CharacterDetailFragment" />
+        android:id="@+id/converterDetailFragment"
+        android:name="com.converter.dynamicfeatures.characterslist.ui.detail.ConverterDetailFragment"
+        app:moduleName="converter-app.features.characters_list"
+        android:label="ConverterDetailFragment" />
 </navigation>
